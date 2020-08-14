@@ -1,0 +1,2 @@
+/* pages/wxui/wxui.wxss */
+@import '../../assets/wxui/dist/style/weui.wxss'

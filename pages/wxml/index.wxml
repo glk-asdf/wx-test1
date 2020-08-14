@@ -1,0 +1,10 @@
+<view>
+	<text>pages/wxml/index.wxml</text>
+	<text>时间为：{{time}}</text>
+	<block wx:for="{{arr}}" wx:for-index="i" wx:for-item="v" wx:key="id">
+		<view>{{i + ':' + v.message}}</view>
+	</block>
+	<switch>123</switch>
+	<import src="../index/index.wxml"/>
+	<template is="staffName" data="{{...staffD}}"></template>
+</view>
